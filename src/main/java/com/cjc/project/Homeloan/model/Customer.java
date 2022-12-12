@@ -23,6 +23,9 @@ private Integer	id;
 private String	customerName;
 private String	customerDateOfBirth;
 private  Integer customerAge;
+
+private String abd;
+
 private String  customerGender;
 private String  customerEmail;
 private double	customerMobileNumber;
