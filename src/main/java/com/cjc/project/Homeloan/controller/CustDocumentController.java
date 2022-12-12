@@ -94,8 +94,11 @@ public class CustDocumentController {
 		cd.setDocStatus("Uploaded");
 		cd.setVerfStatus("pending");
 		CustomerDocument  custdoc=esi.saveDocumentOnly(cd);
+
+            System.out.println("GitHub Practice");
 		
 		return custdoc;
+
 
 	}
         
